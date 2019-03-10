@@ -19,7 +19,7 @@ const IndexPage = () => (
       alignItems="center"
       flexDirection="column"
     >
-      <Flex bg="white" flexDirection="column" alignItems="stretch">
+      <Flex flexDirection="column" alignItems="stretch">
         <Box>
           <Text fontSize={3} color="white" fontSize={5} fontWeight="500" mb={3}>
             Here you can login
@@ -29,8 +29,8 @@ const IndexPage = () => (
           </Text>
         </Box>
         <Flex alignItems="stretch" mt={4} flexDirection="column">
-          <Input mb={3} />
-          <Input mb={3} />
+          <Input label="Email" type="email" mb={3} />
+          <Input label="Password" type="password" mb={3} />
         </Flex>
       </Flex>
     </Container>

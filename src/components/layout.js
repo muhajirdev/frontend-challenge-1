@@ -11,6 +11,7 @@ const theme = {
     background: "#0A184A",
     heading: "#fff",
     subheading: "#5772A1",
+    input: "#1B2956",
   },
   buttons: {
     primary: {

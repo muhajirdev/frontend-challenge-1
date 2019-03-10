@@ -1,8 +1,20 @@
 import React from "react"
-import { Box } from "rebass"
+import Label from "../components/label"
+import { Box, Card, Text } from "rebass"
 
-export default ({ label, ...props }) => (
-  <Box {...props} width={1}>
-    <Box as="input" width={1} type="text" />
-  </Box>
-)
+export default ({ label, type, ...props }) => {
+  return (
+    <Box {...props} width={1}>
+      {label && <Label text={label} />}
+      <Card
+        as="input"
+        width={1}
+        mt={2}
+        type={type}
+        border="none"
+        borderRadius={3}
+        bg="input"
+      />
+    </Box>
+  )
+}
