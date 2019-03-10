@@ -12,10 +12,14 @@ const theme = {
     heading: "#fff",
     subheading: "#5772A1",
     input: "#1B2956",
+    inputBorder: "#25335A",
+    inputColor: "#a8b9d8",
   },
   buttons: {
     primary: {
-      color: "#000",
+      color() {
+        return theme.
+      }
     },
   },
 }
