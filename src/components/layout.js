@@ -17,9 +17,7 @@ const theme = {
   },
   buttons: {
     primary: {
-      color() {
-        return theme.
-      }
+      background: "linear-gradient(to right, #3223B0, #7336FD)",
     },
   },
 }
