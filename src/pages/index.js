@@ -7,7 +7,7 @@ import { Flex, Box, Text, Image } from "rebass"
 import Container from "../components/Container"
 import Input from "../components/Input"
 import Button from "../components/button"
-import wave from "../images/Frame.svg"
+import wave from "../images/frame.svg"
 
 const IndexPage = () => (
   <Layout>
