@@ -16,10 +16,9 @@ const IndexPage = () => (
       bg="background"
       minHeight="100vh"
       justifyContent="center"
-      alignItems="center"
       flexDirection="column"
     >
-      <Flex flexDirection="column" alignItems="stretch">
+      <Flex flexDirection="column" alignItems="stretch" width="25rem" mx="auto">
         <Box>
           <Text fontSize={3} color="white" fontSize={5} fontWeight="500" mb={3}>
             Here you can login
