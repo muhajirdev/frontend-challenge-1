@@ -18,7 +18,6 @@ const IndexPage = () => (
       height="100vh"
       justifyContent="center"
       flexDirection="column"
-      css={{ overflowY: "hidden" }}
     >
       <Flex
         css={{ position: "absolute", top: 0 }}
@@ -32,7 +31,11 @@ const IndexPage = () => (
         </Text>
       </Flex>
       <Box width={1} css={{ position: "absolute", bottom: 0 }}>
-        <Image src={wave} width="100%" />
+        <Image
+          css={{ zIndex: -1, pointerEvents: "none" }}
+          src={wave}
+          width="100%"
+        />
       </Box>
       <Flex
         flexDirection="column"
@@ -40,6 +43,7 @@ const IndexPage = () => (
         width="25rem"
         mx="auto"
         height="100%"
+        css={{ zIndex: 1 }}
       >
         <Box>
           <Text fontSize={3} color="white" fontSize={5} fontWeight="500" mb={3}>
